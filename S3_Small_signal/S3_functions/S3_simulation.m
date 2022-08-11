@@ -1,0 +1,6 @@
+real_small.general.sim.y = out.V_out.V_Boostout_mean.Data...
+    (round(length(out.V_out.V_Boostout_mean.Data)/2):end) - V_out_p;          %Odpowiedź układu
+real_small.general.sim.u = D_add*...
+    ones(length(real_small.general.sim.y),1);                               %Pobudzenie (skok jednostkowy)
+tfdata = iddata(real_small.general.sim.y,real_small.general.sim.u,1e-7);
+tf1 = tfest(tfdata,2,2);
