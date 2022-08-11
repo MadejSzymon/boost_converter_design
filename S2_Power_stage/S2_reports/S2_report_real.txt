@@ -1,0 +1,43 @@
+BOOST - DOBÓR PARAMETRÓW  ##############################################################################################################################
+
+SPECYFIKACJA:  ##############################################################################################################################
+Napięcie wejściowe =                                    30.00 V
+Napięcie wyjściowe =                                    45.00 V
+Maksymalne oscylacje napięcia wyjściowego =             1.00 % 
+Maksymalne oscylacje prądu cewki =                      25.00 % 
+Prąd wyjściowy =                                        2.00 A 
+Minimalna sprawność =                                   90.00 % 
+Maksymalna moc strat =                                  9.00 W 
+Częstotliwość kluczowania =                             20.00 kHz 
+
+PODSTAWOWE PARAMETRY PRZETWORNICY:  ##############################################################################################################################
+Współczynnik wypełnienia =                              0.35
+Rezystancja obciążenia =                                22.50 Ohm 
+
+PORÓWNANIE WYNIKÓW Z OBLICZEŃ I SYMULACJI:  ##############################################################################################################################
+                                        Obliczenia       Symulacja      Dobrano poprawnie:
+Sprawność =                             97.66 %         97.68 %                              TAK
+Oscylacje prądu cewki =                 25.00 %          24.12 %                             TAK
+Oscylacje napiecia wyjściowego =        1.00 %          0.77 %                              TAK
+DOBÓR KOMPONENTÓW - CEWKA:  ##############################################################################################################################
+                                        Dobrano       Obliczenia       Symulacja      Dobrano poprawnie
+Indukcyjność =                          700.00 uH       651.07 uH          ---------           TAK
+Średni prąd =                           4.00 A        3.07 A          3.07 A                  TAK
+Maksymalny prąd =                      4.00 A        3.46 A          3.44 A                   TAK
+
+DOBÓR KOMPONENTÓW - DIODA:  ##############################################################################################################################
+                                        Dobrano       Obliczenia       Symulacja      Dobrano poprawnie
+Średni prąd =                           45.00 A        2.00 A           2.00 A                TAK
+Maksymalny prąd przewodzenia =          600.00 A        6.91 A           ------                TAK
+Maksymalne napięcie wsteczne =         1700.00 V        67.50 V           ------               TAK
+
+DOBÓR KOMPONENTÓW - KONDENSATOR WYJŚCIOWY:  ##############################################################################################################################
+                                        Dobrano       Obliczenia       Symulacja      Dobrano poprawnie
+Pojemność =                             100.00 uF        106.04 uF         ------                NIE
+ESR =                                   0.04 Ohm       0.07 Ohm        ------                TAK
+Napięcie polaryzacji =                 100.00 V         90.00 V          ------                TAK
+
+DOBÓR KOMPONENTÓW - MOSFET:  ##############################################################################################################################
+                                        Dobrano       Obliczenia       Symulacja      Dobrano poprawnie
+Napięcie dren-źródło =                  650.00 V         90.00 V          ------                TAK
+Prąd drenu =                            39.00 A         6.91 A          ------                   TAK

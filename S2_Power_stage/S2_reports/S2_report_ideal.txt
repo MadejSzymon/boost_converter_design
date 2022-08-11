@@ -1,0 +1,55 @@
+BOOST - DOBÓR PARAMETRÓW  ##############################################################################################################################
+
+SPECYFIKACJA:  ##############################################################################################################################
+Napięcie wejściowe =                                    30.00 V
+Napięcie wyjściowe =                                    45.00 V
+Maksymalne oscylacje napięcia wyjściowego =             1.00 % 
+Maksymalne oscylacje prądu cewki =                      25.00 % 
+Prąd wyjściowy =                                        2.00 A 
+Minimalna sprawność =                                   90.00 % 
+Maksymalna moc strat =                                  9.00 W 
+Częstotliwość kluczowania =                             20.00 kHz 
+
+PODSTAWOWE PARAMETRY PRZETWORNICY:  ##############################################################################################################################
+Współczynnik wypełnienia dla sprawności 100% =         0.33
+Maksymalne oscylacje napięcia wyjściowego =             0.45 V 
+Maksymalne oscylacje prądu cewki =                      0.75 A 
+Rezystancja obciążenia =                                22.50 Ohm 
+
+PODSTAWOWE PARAMETRY ELEMENTÓW PRZETWORNICY - CEWKA:  ##############################################################################################################################
+Średni prąd cewki =                                     3.00 A 
+Minimalna wartość indukcyjności =                       666.67 uH 
+Wartość indukcyjności, poniżej której zaczyna się DCM = 83.33 uH 
+Prąd wyjściowy od którego zaczyna się DCM dla L_min =   0.38 A 
+Maksymalny prąd cewki =                                 3.38 A 
+
+PODSTAWOWE PARAMETRY ELEMENTÓW PRZETWORNICY - DIODA:  ##############################################################################################################################
+Średni prąd diody =                                     2.00 A 
+Maksymalny prąd diody =                                 3.38 A 
+Maksymalne napięcie wsteczne =                          67.50 V 
+Maksymalny prąd przewodzenia =                          6.75 A 
+RMS prądu diody =                                       2.46 A 
+
+PODSTAWOWE PARAMETRY ELEMENTÓW PRZETWORNICY - KONDENSATOR WYJŚCIOWY:  ##############################################################################################################################
+Minimalna wartość pojemności =                          74.07 uF 
+RMS prądu kondensatora =                                1.43 A 
+Maksymalna wartość ESR kondensatora =                   66.67 mOhm 
+Napięcie polaryzacji kondensatora =                     90.00 V 
+
+PODSTAWOWE PARAMETRY ELEMENTÓW PRZETWORNICY - MOSFET:  ##############################################################################################################################
+Maksymalne napięcie dren-źródło =                       90.00 V 
+Maksymalny prąd drenu =                                 6.75 A 
+
+PORÓWANIE WYNIKÓW Z OBLICZEŃ I SYMULACJI:  ##############################################################################################################################
+                                        Obliczenia       Symulacja
+Napięcie wyjściowe =                    45.00 V          45.04 V
+Prąd wyjściowy =                        2.00 A          2.00 A
+Prąd wejściowy =                        3.00 A          3.00 A
+Oscylacje prądu cewki =                 0.75 A          0.75 A
+Oscylacje napiecia wejściowego =        0.45 V          0.45 V
+Średni prąd cewki =                     3.00 A          3.00 A
+Maksymalny prąd cewki =                 3.38 A          3.38 A
+Średni prąd diody =                     2.00 A          2.00 A
+Maksymalny prąd diody =                 3.38 A          3.38 A
+RMS prądu diody =                       2.46 A          2.46 A
+RMS prądu kondesatora wyjściowego =     1.43 A          1.43 A
