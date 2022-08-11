@@ -10,3 +10,7 @@ Necessary toolboxes:
 6. Optimization Toolbox
 
 Check description.pdf (Polish).
+
+![image](https://user-images.githubusercontent.com/110915050/184149020-d34d41eb-26ce-414c-ab06-112cdcea9a30.png)
+![image](https://user-images.githubusercontent.com/110915050/184149062-079b047e-c9fa-4d99-a548-b7219e2112d6.png)
+
